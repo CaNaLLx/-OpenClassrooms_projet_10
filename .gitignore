@@ -1,0 +1,13 @@
+data/brut/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+models/
+checkpoints/
+
+*.txt
+!requirements.txt
+.DS_Store
+
+*.zip
+
