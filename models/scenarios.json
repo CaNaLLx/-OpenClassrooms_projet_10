@@ -1,0 +1,335 @@
+{
+  "concentration": {
+    "title": "Concentration des recommandations : un risque de bulle à observer",
+    "user_id": 1956,
+    "snapshot_time": 1507948543981,
+    "history": [
+      283764,
+      284793,
+      236566,
+      107272,
+      111321,
+      313920,
+      286077,
+      321311,
+      237580,
+      119534
+    ],
+    "content_articles": [
+      283116,
+      283458,
+      283192,
+      284066,
+      286007
+    ],
+    "collaborative_articles": [
+      271262,
+      58580,
+      225010,
+      96210,
+      284583
+    ],
+    "content_categories": [
+      412,
+      412,
+      412,
+      412,
+      412
+    ],
+    "collaborative_categories": [
+      399,
+      118,
+      354,
+      209,
+      412
+    ],
+    "content_concentration": 1.0,
+    "collaborative_concentration": 0.2,
+    "content_intra_similarity": 0.5963854789733887,
+    "collaborative_intra_similarity": 0.022385885939002037,
+    "interpretation": "Exemple descriptif sélectionné pour illustrer une différence de concentration. Les moyennes globales sont fournies dans les métriques. Cela ne démontre pas un enfermement à long terme ni un effet causal de bulle."
+  },
+  "new_article": {
+    "title": "Article sans consultation dans l'apprentissage",
+    "user_id": 99736,
+    "article_id": 202652,
+    "training_clicks": 0,
+    "snapshot_time": 1507970143981,
+    "history": [
+      61395,
+      285533,
+      149706,
+      208150,
+      202670,
+      202635,
+      207828,
+      195009,
+      205866,
+      87174
+    ],
+    "content_articles": [
+      202637,
+      203199,
+      202388,
+      202652,
+      203264
+    ],
+    "collaborative_articles": [
+      208562,
+      348112,
+      202388,
+      202476,
+      202637
+    ],
+    "content_rank": 4,
+    "is_actual_next_click": true,
+    "interpretation": "Le contenu peut classer cet article grâce à son embedding. Le CF ne possède pas de voisins appris pour lui. Sa présence dans les suggestions démontre sa prise en compte, pas la satisfaction de l'utilisateur."
+  },
+  "new_user": {
+    "title": "Nouvel utilisateur : sans historique puis avec une première préférence",
+    "user_id": 322897,
+    "seed_articles": [
+      30760
+    ],
+    "without_history": {
+      "collaborative": {
+        "user_id": 322897,
+        "method": "collaborative",
+        "reference_time": 1520943150000,
+        "article_ids": [
+          39891,
+          263284,
+          347438,
+          70039,
+          342184
+        ],
+        "articles": [
+          {
+            "article_id": 39891,
+            "category_id": 66,
+            "published_at": 1520943150000,
+            "score": 0.0,
+            "training_readers": 0,
+            "source": "freshness"
+          },
+          {
+            "article_id": 263284,
+            "category_id": 398,
+            "published_at": 1519971836000,
+            "score": 0.0,
+            "training_readers": 0,
+            "source": "freshness"
+          },
+          {
+            "article_id": 347438,
+            "category_id": 441,
+            "published_at": 1519913709000,
+            "score": 0.0,
+            "training_readers": 0,
+            "source": "freshness"
+          },
+          {
+            "article_id": 70039,
+            "category_id": 136,
+            "published_at": 1519895462000,
+            "score": 0.0,
+            "training_readers": 0,
+            "source": "freshness"
+          },
+          {
+            "article_id": 342184,
+            "category_id": 438,
+            "published_at": 1519889713000,
+            "score": 0.0,
+            "training_readers": 0,
+            "source": "freshness"
+          }
+        ],
+        "history": [],
+        "fallback_count": 5
+      },
+      "content": {
+        "user_id": 322897,
+        "method": "content",
+        "reference_time": 1520943150000,
+        "article_ids": [
+          39891,
+          263284,
+          347438,
+          70039,
+          342184
+        ],
+        "articles": [
+          {
+            "article_id": 39891,
+            "category_id": 66,
+            "published_at": 1520943150000,
+            "score": 0.0,
+            "training_readers": 0,
+            "source": "freshness"
+          },
+          {
+            "article_id": 263284,
+            "category_id": 398,
+            "published_at": 1519971836000,
+            "score": 0.0,
+            "training_readers": 0,
+            "source": "freshness"
+          },
+          {
+            "article_id": 347438,
+            "category_id": 441,
+            "published_at": 1519913709000,
+            "score": 0.0,
+            "training_readers": 0,
+            "source": "freshness"
+          },
+          {
+            "article_id": 70039,
+            "category_id": 136,
+            "published_at": 1519895462000,
+            "score": 0.0,
+            "training_readers": 0,
+            "source": "freshness"
+          },
+          {
+            "article_id": 342184,
+            "category_id": 438,
+            "published_at": 1519889713000,
+            "score": 0.0,
+            "training_readers": 0,
+            "source": "freshness"
+          }
+        ],
+        "history": [],
+        "fallback_count": 5
+      }
+    },
+    "with_first_preference": {
+      "collaborative": {
+        "user_id": 322897,
+        "method": "collaborative",
+        "reference_time": 1520943150000,
+        "article_ids": [
+          39891,
+          263284,
+          347438,
+          70039,
+          342184
+        ],
+        "articles": [
+          {
+            "article_id": 39891,
+            "category_id": 66,
+            "published_at": 1520943150000,
+            "score": 0.0,
+            "training_readers": 0,
+            "source": "freshness"
+          },
+          {
+            "article_id": 263284,
+            "category_id": 398,
+            "published_at": 1519971836000,
+            "score": 0.0,
+            "training_readers": 0,
+            "source": "freshness"
+          },
+          {
+            "article_id": 347438,
+            "category_id": 441,
+            "published_at": 1519913709000,
+            "score": 0.0,
+            "training_readers": 0,
+            "source": "freshness"
+          },
+          {
+            "article_id": 70039,
+            "category_id": 136,
+            "published_at": 1519895462000,
+            "score": 0.0,
+            "training_readers": 0,
+            "source": "freshness"
+          },
+          {
+            "article_id": 342184,
+            "category_id": 438,
+            "published_at": 1519889713000,
+            "score": 0.0,
+            "training_readers": 0,
+            "source": "freshness"
+          }
+        ],
+        "history": [
+          30760
+        ],
+        "fallback_count": 5
+      },
+      "content": {
+        "user_id": 322897,
+        "method": "content",
+        "reference_time": 1520943150000,
+        "article_ids": [
+          22992,
+          22529,
+          22239,
+          22956,
+          22450
+        ],
+        "articles": [
+          {
+            "article_id": 22992,
+            "category_id": 10,
+            "published_at": 1518980991000,
+            "score": 0.9111613337855937,
+            "training_readers": 0,
+            "source": "personalized"
+          },
+          {
+            "article_id": 22529,
+            "category_id": 10,
+            "published_at": 1519334199000,
+            "score": 0.8873327888722977,
+            "training_readers": 0,
+            "source": "personalized"
+          },
+          {
+            "article_id": 22239,
+            "category_id": 10,
+            "published_at": 1519164455000,
+            "score": 0.8787713570472846,
+            "training_readers": 0,
+            "source": "personalized"
+          },
+          {
+            "article_id": 22956,
+            "category_id": 10,
+            "published_at": 1519297941000,
+            "score": 0.8732889388357823,
+            "training_readers": 0,
+            "source": "personalized"
+          },
+          {
+            "article_id": 22450,
+            "category_id": 10,
+            "published_at": 1519639535000,
+            "score": 0.8725527188131654,
+            "training_readers": 0,
+            "source": "personalized"
+          }
+        ],
+        "history": [
+          30760
+        ],
+        "fallback_count": 0
+      }
+    },
+    "interpretation": "Sans historique ni préférence, les deux approches utilisent un repli commun. Une première préférence permet de calculer un profil de contenu. Le CF peut utiliser cette préférence si l'article possède déjà des voisins comportementaux."
+  },
+  "current_catalog": {
+    "reference_time": 1520943150000,
+    "cutoff": 1508294143981,
+    "candidate_articles": 13752,
+    "articles_without_readers": 13752,
+    "example_known_user": 322896
+  }
+}

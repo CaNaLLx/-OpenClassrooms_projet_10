@@ -1,0 +1,231 @@
+{
+  "trained_at": "2026-11-15T10:47:42.061859+00:00",
+  "sample_data": false,
+  "data_quality": {
+    "raw_clicks": 2988181,
+    "files": 385,
+    "missing_rows": 0,
+    "outside_24h_session": 7331,
+    "duplicates": 0,
+    "before_publication": 3289,
+    "retained_clicks": 2977561
+  },
+  "periods": {
+    "validation_start": 1507948543981,
+    "test_start": 1508121343981,
+    "end": 1508294143981
+  },
+  "protocol": "rolling_6h_validation_then_test",
+  "hyperparameters": {
+    "content_dimensions": 64,
+    "profile_reads": 10,
+    "cf_reads_per_user": 20,
+    "cf_neighbors": 50,
+    "candidate_days": [
+      7,
+      30
+    ]
+  },
+  "pca_explained_variance": 0.9724208116531372,
+  "validation_eligible": 56609,
+  "test_eligible": 57523,
+  "validation": {
+    "cases": 2000,
+    "unique_users": 1968,
+    "candidate_recall": 0.9815,
+    "candidate_catalog_size": 6324,
+    "methods": {
+      "collaborative": {
+        "cases": 2000,
+        "hits": 42,
+        "hit_rate_at_5": 0.021,
+        "mrr_at_5": 0.01175,
+        "ndcg_at_5": 0.014032880706592364,
+        "catalog_coverage_at_5": 0.21410499683744466,
+        "fallback_share": 0.0078000000000000005,
+        "distinct_categories": 4.199,
+        "category_concentration": 0.34530000000000005,
+        "dominant_history_share": 0.11130000000000001,
+        "intra_list_similarity": 0.11175331131648818,
+        "new_article_share": 0.0,
+        "personalized_new_article_share": 0.0,
+        "mean_readers": 8754.812699999999,
+        "mean_age_hours": 78.39821653375,
+        "median_latency_ms": 1.8363000126555562,
+        "target_groups": {
+          "new_article": {
+            "cases": 408,
+            "hit_rate_at_5": 0.0
+          },
+          "known_article": {
+            "cases": 1592,
+            "hit_rate_at_5": 0.026381909547738693
+          }
+        }
+      },
+      "content": {
+        "cases": 2000,
+        "hits": 30,
+        "hit_rate_at_5": 0.015,
+        "mrr_at_5": 0.0070999999999999995,
+        "ndcg_at_5": 0.009029912479852449,
+        "catalog_coverage_at_5": 0.4168247944339026,
+        "fallback_share": 0.0,
+        "distinct_categories": 2.2075,
+        "category_concentration": 0.7256000000000001,
+        "dominant_history_share": 0.38389999999999996,
+        "intra_list_similarity": 0.6628194687068463,
+        "new_article_share": 0.0431,
+        "personalized_new_article_share": 0.0431,
+        "mean_readers": 584.9418999999999,
+        "mean_age_hours": 82.47047533930555,
+        "median_latency_ms": 2.1968500805087388,
+        "target_groups": {
+          "new_article": {
+            "cases": 408,
+            "hit_rate_at_5": 0.022058823529411766
+          },
+          "known_article": {
+            "cases": 1592,
+            "hit_rate_at_5": 0.013190954773869347
+          }
+        }
+      },
+      "popular": {
+        "cases": 2000,
+        "hits": 21,
+        "hit_rate_at_5": 0.0105,
+        "mrr_at_5": 0.002583333333333333,
+        "ndcg_at_5": 0.0044724351452520095,
+        "catalog_coverage_at_5": 0.0036369386464263124,
+        "fallback_share": 1.0,
+        "distinct_categories": 3.7475,
+        "category_concentration": 0.41480000000000006,
+        "dominant_history_share": 0.0423,
+        "intra_list_similarity": 0.10410039428496384,
+        "new_article_share": 0.0,
+        "personalized_new_article_share": 0.0,
+        "mean_readers": 20708.718699999998,
+        "mean_age_hours": 105.8937129226389,
+        "median_latency_ms": 2.4108500801958144,
+        "target_groups": {
+          "new_article": {
+            "cases": 408,
+            "hit_rate_at_5": 0.0
+          },
+          "known_article": {
+            "cases": 1592,
+            "hit_rate_at_5": 0.013190954773869347
+          }
+        }
+      }
+    }
+  },
+  "test": {
+    "cases": 2000,
+    "unique_users": 1988,
+    "candidate_recall": 0.9845,
+    "candidate_catalog_size": 7144,
+    "methods": {
+      "collaborative": {
+        "cases": 2000,
+        "hits": 40,
+        "hit_rate_at_5": 0.02,
+        "mrr_at_5": 0.010633333333333333,
+        "ndcg_at_5": 0.012953775645861794,
+        "catalog_coverage_at_5": 0.17665173572228443,
+        "fallback_share": 0.0086,
+        "distinct_categories": 4.201,
+        "category_concentration": 0.34530000000000005,
+        "dominant_history_share": 0.10840000000000001,
+        "intra_list_similarity": 0.11288323664663975,
+        "new_article_share": 0.0,
+        "personalized_new_article_share": 0.0,
+        "mean_readers": 9059.694300000001,
+        "mean_age_hours": 95.8586836763889,
+        "median_latency_ms": 1.8149499665014446,
+        "target_groups": {
+          "new_article": {
+            "cases": 402,
+            "hit_rate_at_5": 0.0
+          },
+          "known_article": {
+            "cases": 1598,
+            "hit_rate_at_5": 0.025031289111389236
+          }
+        }
+      },
+      "content": {
+        "cases": 2000,
+        "hits": 25,
+        "hit_rate_at_5": 0.0125,
+        "mrr_at_5": 0.00625,
+        "ndcg_at_5": 0.007774879764590326,
+        "catalog_coverage_at_5": 0.3517637178051512,
+        "fallback_share": 0.0,
+        "distinct_categories": 2.221,
+        "category_concentration": 0.7187,
+        "dominant_history_share": 0.3675,
+        "intra_list_similarity": 0.6659266956597567,
+        "new_article_share": 0.051,
+        "personalized_new_article_share": 0.051,
+        "mean_readers": 575.7658,
+        "mean_age_hours": 85.96212631527779,
+        "median_latency_ms": 2.1458000410348177,
+        "target_groups": {
+          "new_article": {
+            "cases": 402,
+            "hit_rate_at_5": 0.014925373134328358
+          },
+          "known_article": {
+            "cases": 1598,
+            "hit_rate_at_5": 0.011889862327909888
+          }
+        }
+      },
+      "popular": {
+        "cases": 2000,
+        "hits": 32,
+        "hit_rate_at_5": 0.016,
+        "mrr_at_5": 0.004008333333333333,
+        "ndcg_at_5": 0.006883264316428183,
+        "catalog_coverage_at_5": 0.003079507278835386,
+        "fallback_share": 1.0,
+        "distinct_categories": 4.269,
+        "category_concentration": 0.33140000000000003,
+        "dominant_history_share": 0.039200000000000006,
+        "intra_list_similarity": 0.03927980138960993,
+        "new_article_share": 0.0,
+        "personalized_new_article_share": 0.0,
+        "mean_readers": 20142.3596,
+        "mean_age_hours": 124.16618717638889,
+        "median_latency_ms": 2.3760999902151525,
+        "target_groups": {
+          "new_article": {
+            "cases": 402,
+            "hit_rate_at_5": 0.0
+          },
+          "known_article": {
+            "cases": 1598,
+            "hit_rate_at_5": 0.02002503128911139
+          }
+        }
+      }
+    }
+  },
+  "decision": {
+    "selected_method": "content",
+    "best_validation_accuracy": "collaborative",
+    "require_personalized_new_articles": true,
+    "eligible_methods": [
+      "content"
+    ],
+    "selection_data": "validation_only",
+    "reason": "Personnaliser des articles sans clic est une exigence du MVP. Choix de la meilleure pertinence de validation parmi les méthodes qui le démontrent."
+  },
+  "users": 322758,
+  "catalog_articles": 364047,
+  "reference_time": 1520943150000,
+  "training_cutoff": 1508294143981,
+  "artifact_bytes": 174502734
+}
