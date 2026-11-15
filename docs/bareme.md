@@ -15,11 +15,11 @@ Les preuves locales sont distinguées des tâches cloud restantes. Un test du mo
 
 | Critère | Preuve | État |
 |---|---|---|
-| CE1 — Entraîner et tester | Notebook exécuté `notebooks/comparaison_approches.ipynb`, pipeline, métriques et tests | Entraînement et évaluation complets réalisés |
+| CE1 — Entraîner et tester | Notebook exécuté, métriques, neuf tests et contrôle de 200 utilisateurs aux deux dates | Entraînement et vérifications réalisés |
 | CE2 — Tester CF et contenu | Deux scores indépendants, cas et protocole communs, résultats séparés et exemples | Réalisé dans le notebook et les rapports |
 | CE3 — Fonction serverless appelée par l'application | Contrat défini et classe de prédiction réutilisable | Déploiement Azure et test HTTP réel à réaliser ensuite |
 | CE4 — Fonctions et classes | Modules `data`, `train`, `evaluate`, `experiment`, classe `Recommender` | Implémenté |
-| CE5 — Git et GitHub | Historique Git préservé | Commit et publication de cette nouvelle version à vérifier |
+| CE5 — Git et GitHub | Historique Git préservé et branche `codex/comparaison-recommandations` publiée sur GitHub | Versionné et partagé |
 
 ## Comparaisons à présenter
 

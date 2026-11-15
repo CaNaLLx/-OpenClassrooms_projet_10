@@ -101,3 +101,9 @@ Les tests vérifient les deux algorithmes séparément, les articles sans clic, 
 - `models/metrics.json` et `models/scenarios.json` : résultats et preuves lisibles.
 
 Le jeu ne fournit pas l'encodeur d'origine : un véritable nouvel article nécessite un embedding compatible ou une migration de représentation. La simulation d'une préférence dans l'interface n'écrit pas encore dans une base Utilisateurs.
+
+## Version GitHub
+
+Le code, le notebook exécuté et les rapports sont versionnés sur la branche [codex/comparaison-recommandations](https://github.com/CaNaLLx/-OpenClassrooms_projet_10/tree/codex/comparaison-recommandations). Les données brutes, l'environnement virtuel, les caches et le modèle binaire restent locaux et sont exclus de Git.
+
+Vérifications de cette version : neuf tests automatisés passent ; les deux méthodes ont été contrôlées sur 200 utilisateurs à la fin des consultations et à la référence globale. Les cinq articles sont distincts, non lus et déjà publiés à la date choisie.
