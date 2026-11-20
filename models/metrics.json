@@ -1,5 +1,5 @@
 {
-  "trained_at": "2026-11-15T10:47:42.061859+00:00",
+  "trained_at": "2026-11-20T15:00:39.003502+00:00",
   "sample_data": false,
   "data_quality": {
     "raw_clicks": 2988181,
@@ -51,7 +51,7 @@
         "personalized_new_article_share": 0.0,
         "mean_readers": 8754.812699999999,
         "mean_age_hours": 78.39821653375,
-        "median_latency_ms": 1.8363000126555562,
+        "median_latency_ms": 1.8750500021269545,
         "target_groups": {
           "new_article": {
             "cases": 408,
@@ -79,7 +79,7 @@
         "personalized_new_article_share": 0.0431,
         "mean_readers": 584.9418999999999,
         "mean_age_hours": 82.47047533930555,
-        "median_latency_ms": 2.1968500805087388,
+        "median_latency_ms": 2.2510499984491616,
         "target_groups": {
           "new_article": {
             "cases": 408,
@@ -107,7 +107,7 @@
         "personalized_new_article_share": 0.0,
         "mean_readers": 20708.718699999998,
         "mean_age_hours": 105.8937129226389,
-        "median_latency_ms": 2.4108500801958144,
+        "median_latency_ms": 2.467949998390395,
         "target_groups": {
           "new_article": {
             "cases": 408,
@@ -143,7 +143,7 @@
         "personalized_new_article_share": 0.0,
         "mean_readers": 9059.694300000001,
         "mean_age_hours": 95.8586836763889,
-        "median_latency_ms": 1.8149499665014446,
+        "median_latency_ms": 1.8857000031857751,
         "target_groups": {
           "new_article": {
             "cases": 402,
@@ -171,7 +171,7 @@
         "personalized_new_article_share": 0.051,
         "mean_readers": 575.7658,
         "mean_age_hours": 85.96212631527779,
-        "median_latency_ms": 2.1458000410348177,
+        "median_latency_ms": 2.2519999984069727,
         "target_groups": {
           "new_article": {
             "cases": 402,
@@ -199,7 +199,7 @@
         "personalized_new_article_share": 0.0,
         "mean_readers": 20142.3596,
         "mean_age_hours": 124.16618717638889,
-        "median_latency_ms": 2.3760999902151525,
+        "median_latency_ms": 2.4636500020278618,
         "target_groups": {
           "new_article": {
             "cases": 402,
